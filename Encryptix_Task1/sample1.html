@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page....</title>
+<style>
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body styles */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+        padding: 20px;
+    }
+    
+    /* Header styles */
+    header {
+        background-color: #d930b1;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+    
+    header p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    
+    /* Main content styles */
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .section {
+        margin-bottom: 40px;
+    }
+    
+    .section h2 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #5d1796;
+    }
+    
+    .section p {
+        margin-bottom: 20px;
+    }
+    
+    .course-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .course-list li {
+        margin-bottom: 10px;
+    }
+    
+    .advantage {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .advantage img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    
+    .advantage p {
+        margin: 0;
+    }
+    
+    /* Form styles */
+    .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="password"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    
+    .form-group input[type="submit"] {
+        background-color: #941caf;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+    
+    .form-group input[type="submit"]:hover {
+        background-color: #5b10b1;
+    }
+    
+    /* Footer styles */
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+        background-color: #4741ba;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Landing Page.......</h1>
+    <h1>Welcome to Our E-Learning Platform</h1>
+    <p> <strong> Created By Janak Patel(Sliver Education Platform)</strong></p>
+    <p>Expand your knowledge anytime, anywhere!</p>
+</header>
+
+<div class="container">
+    <section class="section">
+        <h2>Introduction and Slogan</h2>
+        <p>Our platform provides a diverse range of courses to help you achieve your learning goals. Learn at your own pace and engage with interactive content.</p>
+    </section>
+    
+    <section class="section">
+        <h2>All Course Details</h2>
+        <ul class="course-list">
+            <li><a href="pf.html" target="_blank">Programming Fundamentals</a></li>
+            <li><a href="wb.html" target="_blank">Web Development Bootcamp</a></li>
+            <li><a href="ds.html" target="_blank">Data Science Essentials</a></li>
+            <li><a href="bm.html" target="_blank">Business Management</a></li>
+        </ul>
+    </section>
+    
+    <section class="section">
+        <h2>Advantages of Our Platform</h2>
+        <div class="advantage">
+            <p>  (1) Flexible learning schedule</p>
+        </div>
+        <div class="advantage">
+            <p>  (2) Interactive course materials</p>
+        </div>
+        <div class="advantage">
+            <p>  (3) Expert instructors</p>
+        </div>
+        <div class="advantage">
+            <p>  (4) Recognized certificates</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Sign Up</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Login</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="login-email">Email Address</label>
+                    <input type="email" id="login-email" name="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="login-password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Company Details</h2>
+        <p><strong>Name:</strong>Sliver Education Platform</p>
+        <p><strong>Contact:</strong> +91 9078654321</p>
+        <p><strong>Email:</strong> info@edunet.com</p>
+    </section>
+    
+    <section class="section">
+        <h2>Help Section</h2>
+        <p>For any queries or assistance, please refer to our <a href="#">FAQs</a> or contact our support team.</p>
+    </section>
+    
+    <section class="section">
+        <h2>Feedback Section</h2>
+        <p>We value your feedback! Share your experience with us <a href="#">here</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Programming Fundamentals Course. Created By Janak Patel(Sliver Education Platform)</p>
+</footer>
+
+
+</body>
+</html>
+
