@@ -1,0 +1,14 @@
+To create a basic calculator using CSS, HTML, and JavaScript, you'll need to implement an interactive interface with buttons for addition, subtraction, multiplication, and division operations. The calculator should have a display screen to show user input and results. Utilize CSS grid system for button alignments. Use event listeners, if-else statements, operators, and loops to handle user input and perform calculations. This project requires some skill but can be done with basic knowledge of these technologies..
+
+Project Overview:
+
+Calculator App....... 
+
+The calculator app is designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+Here's a brief rundown of the key features and functionalities:
+
+📌User Interface: A clean and intuitive interface built with HTML for structure and CSS for styling, ensuring a user-friendly experience.
+
+📌Interactivity: JavaScript is used to handle the logic for arithmetic operations and to manage user interactions, providing real-time calculation results.
+
+⭐This project has been a great learning journey. enhancing my understanding of the core principles of web development.
